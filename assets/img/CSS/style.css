@@ -11,12 +11,19 @@
     display: table;
     clear: both;
 }
-
+.container {
+    width: 80%;
+    margin: auto;
+}
 
 /*******************
 * Header CSS *
 *******************/
-
+Header {
+    background-color: darkblue;
+    height: 1000px;
+    width: 800px;
+}
 
 
 
