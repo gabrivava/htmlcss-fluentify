@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -105,9 +105,55 @@ Header > nav {
 /*******************
 * main CSS *
 *******************/
+.intro {
+    text-align: center;
+    padding: 30px;
+    background-color: #b8b8b8;
+}
+.intro h2 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.intro p {
+    color: grey;
+    font-size: 1.2rem;
+}
 
-
-
+/* 3 colonne */
+.colonna {
+    height: 600px;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+.sx, .ctr, .dx {
+    float: left;
+}
+.banner {
+    padding: 20px;
+}
+.banner .colonna img {
+    width: 90%;
+    height: 50%;
+}
+.scritta_verde {
+    padding-top: 30px;
+    color: #7CBB02;
+    font-size: 25px;
+}
+.scritta_verde::after {
+    content: '';
+    background-color: #b8b8b8;
+    height: 2px;
+    width: 100px;
+    display: block;
+    margin: 30px auto;
+}
+.colonna p {
+    color: grey;
+    font-size: 1.1rem; 
+    line-height: 1.5rem;
+}
 
 /*******************
 * footer CSS *
