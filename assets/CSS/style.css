@@ -1,0 +1,95 @@
+/* common CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+}
+
+
+/* utility CSS */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*******************
+* Header CSS *
+*******************/
+Header {
+    background-color: #0C325A;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-size: 15px;
+    background-image: url('../img/background-header.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 115% 110%;
+}
+.left_menu > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+.container a {
+    text-decoration: none;
+    color: white;
+}
+.left_menu, .container > img, .right_menu {
+    float: left;
+    text-transform: uppercase;
+}
+Header > nav {
+    height: 80px;
+    padding-top: 10px;
+}
+.logo {
+    width: 15%;
+    line-height: 80px;
+    vertical-align: center;
+}
+.left_menu {
+    width: 45%;
+    line-height: 80px;
+    vertical-align: center;
+}
+.right_menu {
+    width: 40%;
+    line-height: 80px;
+    vertical-align: center;
+}
+.btn {
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.btn_outline {
+    border: 2px solid white;
+}
+.btn_fullline {
+    background-color: #7CBB02;
+}
+
+
+
+/*******************
+* main CSS *
+*******************/
+
+
+
+
+/*******************
+* footer CSS *
+*******************/
